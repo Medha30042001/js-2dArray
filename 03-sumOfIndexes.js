@@ -7,7 +7,7 @@ function sumOfIndexes(N,M,arr){
       let sum = i+j;
       str += sum + ' ';
     }
-    console.log(str);
+    console.log(str.trim());
   }
 }
 
