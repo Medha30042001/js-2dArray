@@ -12,16 +12,6 @@ function evenSumRows(N,M,arr){
 	}
 }
 
-function sumOfRows(N,M,arr){
-	for(let i=0; i<N; i++){
-	  let sum = 0;
-	  for(let j=0; j<M; j++){
-	    sum+=arr[i][j];
-	  }
-	  console.log(sum);
-	}
-}
-
 function main(){
   const input = require('fs').readFileSync(0, 'utf-8').trim();
   const a = input.split('\n');
